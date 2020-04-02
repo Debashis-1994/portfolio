@@ -4,6 +4,6 @@ hello blog
 
 {% for obj in BLOGS %}
  <h1>{{obj.Title}}</h1>
- <h1>{{obj.Description}}</h1>
- <h1>{{obj.Date}}</h1>
+ <h4>Description of blog:<br>{{obj.Description}}</h4>
+ <h2>Creation Date:{{obj.Date}}</h2>
 {% endfor %}
